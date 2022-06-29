@@ -3,39 +3,38 @@ package br.com.dio.model;
 import java.util.Objects;
 
 public class Gato {
-    private string nome;
-    private string cor;
-    private string idade;
+    private String nome;
+    private String cor;
+    private String idade;
 
     public Gato() {}
 
-    public Gato(string nome, string cor, string idade) {
+    public Gato(String nome, String cor, String idade) {
         this.nome = nome;
         this.cor = cor;
         this.idade = idade;
     }
 
-    public string getNome() {
-        return nome;
+    public String getNome() { return nome;
     }
 
-    public void setNome(string nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public string getCor() {
+    public String getCor() {
         return cor;
     }
 
-    public void setCor(string cor) {
+    public void setCor(String cor) {
         this.cor = cor;
     }
 
-    public string getIdade() {
+    public String getIdade() {
         return idade;
     }
 
-    public void setIdade(string idade) {
+    public void setIdade(String idade) {
         this.idade = idade;
     }
 
